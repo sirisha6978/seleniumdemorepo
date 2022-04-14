@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite_multiple">
+  <test  name="Test">
+    <classes>
+      <class name="parrlel_testng_practices.Test_class2"/>
+      <class name="parrlel_testng_practices.Test_class1"/>
+      
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite_multiple -->

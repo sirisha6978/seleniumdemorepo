@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7865" started-at="2022-01-27T14:51:50 IST" finished-at="2022-01-27T14:51:57 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7865" started-at="2022-01-27T14:51:50 IST" finished-at="2022-01-27T14:51:57 IST">
+      <class name="pageObjectModel.Fb_pom_main">
+        <test-method status="PASS" signature="login()[pri:0, instance:pageObjectModel.Fb_pom_main@71bbf57e]" name="login" duration-ms="7813" started-at="2022-01-27T14:51:50 IST" finished-at="2022-01-27T14:51:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- pageObjectModel.Fb_pom_main -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

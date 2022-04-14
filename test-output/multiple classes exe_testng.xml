@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="testng_samples.NewTest"/>
+       <class name= "Depends_On_method.java" />
+         <class name=  "Exception_timeout_test.java"/>
+           <class name= "Google_test.java " />
+             <class name= "Grouping_test.java"/>
+           
+      
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

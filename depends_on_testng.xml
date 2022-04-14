@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite_depends_on_method">
+  <test name="Test_depends">
+  <groups>
+  <run>
+  <exclude   name = "alphabits" ></exclude>
+  <include name = "language"></include>
+  <include name ="alltestcases"></include>
+  </run>
+  
+  
+  </groups>
+   
+    <classes>
+      <class name="testng_practices.depends_on_groups_testng"/>
+    </classes>
+  </test> 
+</suite> 

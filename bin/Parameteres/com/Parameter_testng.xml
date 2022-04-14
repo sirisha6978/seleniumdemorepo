@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Facebook test automation">
+
+  <test name="fcebook 1">
+  
+<parameter name = "environment"  value ="QA" ></parameter>
+<parameter name = "browser" value ="chrome">
+ <parameter name= "url" value="https://facebook.com"  ></parameter>
+      <parameter name="emailid"  value="siri.sirisha.m@gmail.com"/></parameter> 
+      <parameter name="password" value="sree141001410fb"/>
+     
+      <classes>
+      <class name="Parameteres.com.Fb_Parameterization"/>
+      </classes>
+  </test> <!-- Test --> 
+        
+
+</suite> <!-- Suite -->
+
