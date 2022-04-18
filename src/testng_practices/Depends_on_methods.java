@@ -3,6 +3,11 @@ package testng_practices;
 import org.testng.annotations.Test;
 
 public class Depends_on_methods {
+	@Test 
+	public void sample()
+	{
+		System.out.println("it is sample method");
+	}
 		@Test
 	public void world()
 	{
