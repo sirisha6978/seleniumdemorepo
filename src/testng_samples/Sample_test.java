@@ -13,6 +13,9 @@ public class Sample_test {
 //preconditions (@BeforeSuite,@BeforeClass,@BeforeMethod,@BeforeTest)
   //1
 	
+	public void samp(){
+		System.out.println("it is smaple test");
+	}
 	public void setUp() {
 		System.out.println("setup ur system properties");
 	}
