@@ -8,6 +8,8 @@ public class Depends_on_methods {
 	{
 		System.out.println("it is sample method");
 	}
+	
+	
 		@Test
 	public void world()
 	{

@@ -13,6 +13,10 @@ public class Sample_test {
 //preconditions (@BeforeSuite,@BeforeClass,@BeforeMethod,@BeforeTest)
   //1
 	
+	private void a() {
+		System.out.println("create new branch");
+		
+	}
 	public void setUp() {
 		System.out.println("setup ur system properties");
 	}
